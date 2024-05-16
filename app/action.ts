@@ -60,7 +60,7 @@ export async function CreateDescription(formData: FormData) {
       cacheControl: "25920000",
       contentType: "image/png",
     });
-     
+
   const data = await prisma.home.update({
     where: {
       id: homeId,
@@ -73,8 +73,23 @@ export async function CreateDescription(formData: FormData) {
       guests: guestNumber,
       photo: imageData?.path,
       bathrooms: bathroomsNumber,
-      addedDescription:true,
+      addedDescription: true,
     },
   });
-  return redirect(`/create/${homeId}/address`)
+  return redirect(`/create/${homeId}/address`);
+}
+
+export async function createLocation(formData: FormData) {
+  const homeId = formData.get("homeId") as string;
+  const countryValue = formData.get("countryValue") as string;
+  const data = await prisma.home.update({
+    where: {
+      id: homeId,
+    },
+    data: {
+      addedLocation: true,
+      country: countryValue,
+    },
+  });
+  return redirect("/");
 }
