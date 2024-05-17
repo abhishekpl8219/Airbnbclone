@@ -16,6 +16,7 @@
     "@radix-ui/react-select": "^2.0.0",
     "@radix-ui/react-slot": "^1.0.2",
     "@supabase/supabase-js": "^2.43.2",
+    "base64-arraybuffer": "^1.0.2",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
     "leaflet": "^1.9.4",
@@ -26,6 +27,7 @@
     "react-leaflet": "^4.2.1",
     "tailwind-merge": "^2.3.0",
     "tailwindcss-animate": "^1.0.7",
+    "uuid": "^9.0.1",
     "world-countries": "^5.0.0"
   },
   "devDependencies": {

@@ -11,8 +11,8 @@ export default function DescriptionPage({
 }: {
   params: { id: string };
 }) {
-  console.log("value of paramas",params)
-  console.log("value of paramas.id",params.id)
+  console.log("value of paramas", params);
+  console.log("value of paramas.id", params.id);
   return (
     <>
       <div className="w-3/5 mx-auto">
@@ -20,7 +20,7 @@ export default function DescriptionPage({
           Please describe your home as good as you can
         </h2>
       </div>
-      <form action= {CreateDescription}>
+      <form action={CreateDescription}>
         <input type="hidden" name="homeId" value={params.id} />
         <div className="mx-auto w-3/5 mt-10 flex flex-col gap-y-5 mb-36">
           <div className="flex flex-col gap-y-2 ">
