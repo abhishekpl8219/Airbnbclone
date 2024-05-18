@@ -1,11 +1,16 @@
+import { createReservation } from "@/app/action";
 import { CategoryShowCase } from "@/app/components/CategoryShowcase";
 import { HomeMap } from "@/app/components/HomeMap";
 import { SelectCalendar } from "@/app/components/SelectCalendar";
+import { ReservationSubmitButtons } from "@/app/components/Submitbuttons";
 import prisma from "@/app/lib/db";
 import { useCountries } from "@/app/lib/getCountries";
+import { Button } from "@/components/ui/button";
 import { Separator } from "@/components/ui/separator";
+import { getKindeServerSession } from "@kinde-oss/kinde-auth-nextjs/server";
 
 import Image from "next/image";
+import Link from "next/link";
 async function getData(homeid: string) {
   const data = await prisma.home.findUnique({
     where: {
@@ -21,6 +26,11 @@ async function getData(homeid: string) {
       categoryName: true,
       price: true,
       country: true,
+      Reservation: {
+        where: {
+          homeId: homeid,
+        },
+      },
       User: {
         select: {
           profileImage: true,
@@ -40,6 +50,8 @@ export default async function HomeRoute({
   const data = await getData(params.id);
   const { getCountryByValue } = useCountries();
   const country = getCountryByValue(data?.country as string);
+  const { getUser } = getKindeServerSession();
+  const user = await getUser();
   return (
     <div className="w-[75%] mx-auto mt-10">
       <h1 className="font-medium text-2xl mb-5">{data?.title}</h1>
@@ -72,7 +84,18 @@ export default async function HomeRoute({
           <Separator className="my-7" />
           <HomeMap locationValue={country?.value as string} />
         </div>
-        <SelectCalendar />
+        <form action={createReservation}>
+          <input type="hidden" name="homeId" value={params.id} />
+          <input type="hidden" name="userId" value={user?.id} />
+          <SelectCalendar reservation={data?.Reservation} />
+          {user?.id ? (
+            <ReservationSubmitButtons />
+          ) : (
+            <Button className="w-full " asChild>
+              <Link href="/api/auth/login">Make a Reservation</Link>
+            </Button>
+          )}
+        </form>
       </div>
     </div>
   );
