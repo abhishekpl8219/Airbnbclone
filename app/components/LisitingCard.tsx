@@ -67,7 +67,7 @@ export function ListingCard({
         )}
       </div>
 
-      <Link href={"/"} className="mt-2">
+      <Link href={`/home/${homeId}`} className="mt-2">
         <h3
           className="font-bold text-base
         "
