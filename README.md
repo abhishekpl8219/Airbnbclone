@@ -50,24 +50,38 @@ Caching
 Authentication with customized login page!
 
 Server side implementation!
-![favourites](https://github.com/abhishekpl821![registration](https://github.com/abhishekpl8219/Airbnbclone/assets/159178761/fa415b45-c513-48da-9321-41756fdf6e20)
-9![filter2](https://github.com/abhishekpl8219/Airbnbclone/assets/159178761/297d6fe8-8257-4f4d-9b5c-aa5bafedbe07)
-/Airbnbclone/assets/159178761/1f78ed5d-64![Screenshot 2024-05-21 110053](h![searchpag2](https://github.com/abhishekpl8219/Airbnbclone/assets/159178761/bfd3f1fc-aa0c-4b8c-8ea7-ef50ee591310)
-ttps://github.com/abhishekpl8219/Airbnbclone/assets/159178761/9fc42136-b6df-4d4![searchpage1](https://github.com/abhishekpl8219/Airbnbclone/assets/159178761/1a900850-afd6-4d14-9f78-df3bd1e78b31)
-6-b2d5-d9e16d864ac9)
-81-453c-b7e7![reservations](https://github.com/abhishekpl8219/Airbnbclone/assets/159178761/75a7ba4a-b386-4990-bdc8-2528ddf29bd6)
--2547f957f52b)
+![homepage](https://github.com/abhishekpl8219/Airbnbclone/assets/159178761/1090c611-e381-4b23-adb6-3ac939c61022)
+![filter](https://github.com/abhishekpl8219/Airbnbclone/assets/159178761/be1b9043-a1a3-458b-83cc-7422640f1f8e)
 
 
-![filter3](https://github.com/abhishekpl8219/Airbnbclone/assets/159178761/8d3fb304-20a2-479f-a7e3-0ed3dbf86a19)
-
-[ID page](https://github.com/abhishekpl8219/Airbnbclone/assets/159178761/653162ce-2571-430c-888a-db0f58256af6)
-
-[homepage](https://github.com/abhishekpl8219/Airbnbclone/assets/159178761/e6e8bed7-916b-4a4a-86ad-2ac7867e460f)
-![filter](https://github.com/abhishekpl8219/Airbnbclone/assets/159178761/294d01c8-6c94-4eb7-9055-af78d30ac160)
-![filter](https://github.com/abhishekpl8219/Airbnbclone/assets/159178761/64cb25d2-45ea-4a36-8f63-2a2de9606254)
-
-![homepage](https://github.com/abhishekpl8219/Airbnbclone/assets/159178761/16568ad0-e369-4509-911a-2bc2918e5f29)
 
 
+
+
+![favourites](https://github.com/abhishekpl8219/Airbnbclone/assets/159178761/b421acdb-567c-4ad4-8137-6f0c3754eaaf)
+
+
+
+![filter2](https://github.com/abhishekpl8219/Airbnbclone/assets/159178761/33fa9aa4-30e4-4035-9800-84b7a1385153)
+
+
+
+
+
+![filter3](https://github.com/abhishekpl8219/Airbnbclone/assets/159178761/97aec163-e613-4518-97bd-e526aa20a399)
+
+![ID page](https://github.com/abhishekpl8219/Airbnbclone/assets/159178761/8bfea29e-98c7-41e3-9251-e56ea340945c)
+
+
+
+
+![registration](https://github.com/abhishekpl8219/Airbnbclone/assets/159178761/ddaae944-da62-4052-9857-2152530ed549)
+
+
+
+
+![reservations](https://github.com/abhishekpl8219/Airbnbclone/assets/159178761/25d32895-32e0-4fbd-a8c2-c5f3e0e19d27)
+![searchpag2](https://github.com/abhishekpl8219/Airbnbclone/assets/159178761/8c718188-e830-4977-acde-95d1f52411d6)
+
+![searchpage1](https://github.com/abhishekpl8219/Airbnbclone/assets/159178761/fade9880-53ba-4cd2-9339-ab5079155338)
 
