@@ -26,5 +26,7 @@ export async function GET() {
       },
     });
   }
-  return NextResponse.redirect("http://localhost:3000/");
+  return NextResponse.redirect(
+    "https://airbnbclone-ae4thye1y-abhishek-patials-projects.vercel.app"
+  );
 }
